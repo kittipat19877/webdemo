@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Work</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <h1>ข้อที่1</h1>
+    <h2 id="header">สวัสดีชาวโลก</h1>
+    <button type="button" onclick="document.getElementById('header').style.color='red'"> Change color </button>
+
+    <h1>ข้อที่2</h1>
+    <button onclick="document.getElementById('Show').innerHTML = (toThaiDateString(date1));">แสดงเวลา</button>
+    <p id="Show"></p>
+    </div>
+    </div>
+    <div class="home2" id="home2">
+
+    <h1>ข้อที่3</h1>
+    <p><button  onclick="document.getElementById('myImage').src='img/Idle.png'">แมวยืน</button>
+    <img id="myImage" src="img/Idle.png" style="width:300px">
+    <button  onclick="document.getElementById('myImage').src='img/slide.png'">แมวสไลด์</button></p>
+
+
+    <h1>ข้อที่4</h1>
+    <div class="home4" id="home4">
+        </h2>
+        <div class="btn-table">
+            <button onclick="showTable()">แสดงตาราง</button>
+            <button onclick="DeleteTable()">ซ่อนตาราง</button>
+        </div>
+        <div class="cover">
+            <div class="cover-table" id="show-table" style="display: none; padding: 10px;">
+               
+                <table border="1" align="center">
+                    <h4 style="color: #000; text-align: center; margin-top:10px;">ตารางแสดงสินค้า</h4>
+                    <tr>
+                        <th>รายการที่ 1</th>
+                        <th>รายการที่ 2</th>
+                        <th>รายการที่ 3</th>
+
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>16</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>64</td>
+                        <td>128</td>
+                        <td>256</td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+
+        <h1>ข้อที่5</h1>
+        <div class="home5" id="home5">
+            <div class="cover-home5">
+                <label for="number">
+                    <input type="text" id="number1" class="number" required>
+                </label>
+                <label for="number">
+                    <input type="text" id="number2" class="number"  required>
+                    <span></span>
+                </label>
+                <label for="number">
+                    <input type="text" id="number3" class="number"  required>
+                    <span></span>
+                </table>
+                </label>
+                <p id="sum1">ค่าเฉลี่ย : </p>
+                <p id="sum2">ค่าสูงสุด : </p>
+                <p id="sum3">ค่าต่ำสุด : </p>
+                <div class="btn-fornum">
+                    <button onclick="Calculate()">Submit</button>
+                </div>
+    
+    
+            </div>
+        </div>
+    </table>
+</body>
+</html>
+<script src="jss.js"></script>

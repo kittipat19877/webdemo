@@ -1,0 +1,82 @@
+@font-face {
+    font-family: sarabun;
+    src: url(fonts/Sarabun/Sarabun-Regular.ttf);
+    }
+    body  {
+        background-color: rgb(255, 207, 153);
+        text-align: center;
+    }
+    h1  {
+        font-family:cursive;
+        font-size: 20px;
+        color:rgb(0, 0, 0);
+    }
+    h2  {
+        font-family:cursive;
+        font-size: 40px;
+        color:rgb(0, 0, 0);
+    }
+    p   {
+        font-family:initial;
+        color: rgb(0, 0, 0);
+    }
+ 
+    button  {
+        font-family:sarabun;
+        border: none;
+        width: 100px;
+        height: 40px;
+        cursor: pointer;
+        border-radius: 10px;
+        background: #000000;
+        color: #ffffff;
+    }
+
+    .home5 {
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(255, 207, 153);
+    }
+    .cover-home5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        font-family:sarabun;
+    }
+    .cover-home5 input{
+        width: 150px;
+        height: 35px;
+    }
+    .cover-home5 p{
+        margin-top: 15px;
+    }
+    .cover-home5 button{
+        margin-top: 15px;
+    }
+    .cover-home5 input{
+        position: relative;
+        font-size: 18px;
+        padding: 5px;
+       
+    }
+    .cover-home5 label{
+        position: relative;
+        margin-top:30px;
+    }
+    .cover-home5 span{
+        position: absolute;
+        left: 0;
+        transition: 0.4s;
+        padding: 5px;
+    }
+    .cover-home5 input:valid ~ span,
+    .cover-home5 input:focus ~ span{
+        
+        transform: translateY(-28px);
+        font-size: 13px;
+        transition: 0.4s;
+    }
+    
